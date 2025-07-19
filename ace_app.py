@@ -4,15 +4,28 @@ st.set_page_config(page_title="Опросник ACE", layout="centered")
 
 st.markdown("""
     <style>
-        html, body, [class*="css"]  {
+        html, body, [class*="css"] {
             font-size: 18px !important;
             line-height: 1.6;
         }
+
+        label, div[role="radiogroup"] {
+            font-size: 18px !important;
+        }
+
         .stRadio > div {
             gap: 0.75rem;
         }
+
+        .stMarkdown p {
+            font-size: 18px !important;
+        }
+
+        h1, h2, h3, h4 {
+            font-weight: 700;
+        }
     </style>
-    """, unsafe_allow_html=True)
+""", unsafe_allow_html=True)
 
 st.title("🧠 Опросник ACE (Неблагоприятный детский опыт)")
 
