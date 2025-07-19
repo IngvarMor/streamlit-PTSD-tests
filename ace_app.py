@@ -1,5 +1,17 @@
 import streamlit as st
 
+st.markdown("""
+    <style>
+        html, body, [class*="css"]  {
+            font-size: 18px !important;
+            line-height: 1.6;
+        }
+        .stRadio > div {
+            gap: 0.75rem;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
 st.set_page_config(page_title="Опросник ACE", layout="centered")
 
 st.title("🧠 Опросник ACE (Неблагоприятный детский опыт)")
