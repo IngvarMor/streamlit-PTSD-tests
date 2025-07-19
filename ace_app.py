@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="Опросник ACE", layout="centered")
+
 st.markdown("""
     <style>
         html, body, [class*="css"]  {
@@ -11,8 +13,6 @@ st.markdown("""
         }
     </style>
     """, unsafe_allow_html=True)
-
-st.set_page_config(page_title="Опросник ACE", layout="centered")
 
 st.title("🧠 Опросник ACE (Неблагоприятный детский опыт)")
 
